@@ -45,7 +45,7 @@ def gen_word_cloud(in_text, out_file, mask_file, font_path=None, max_font_size=1
     text = Path(in_text).read_text()
     text = getFrequencyDictForText(text)
     # gen wordcloud
-    font_path = Path('monlam_uni_ouchan2.ttf') if not font_path else Path(font_path)
+    font_path = Path(__file__).parent / 'monlam_uni_ouchan2.ttf' if not font_path else Path(font_path)
 
     mask = Path(mask_file)
     makeImage(text, mask, out_file, font_path, max_font_size, relative_scaling)
