@@ -1,4 +1,5 @@
 # trinpa
+
 Wordcloud generator for Tibetan
 
 ## usage
@@ -21,3 +22,7 @@ gen_word_cloud(text, out_file, mask_file)
 ### Wordcloud:
 
 ![wordcloud](wordcloud.png)
+
+### After-mask:
+
+![image](https://user-images.githubusercontent.com/17675331/158207681-5ec910dd-ffed-40d6-b1e2-6992931943eb.png)
