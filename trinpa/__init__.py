@@ -1,0 +1,1 @@
+from .gen_cloud import gen_word_cloud
